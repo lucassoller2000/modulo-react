@@ -1,0 +1,58 @@
+body{
+  margin:0px;
+}
+  
+.header {
+  background-color: #3b9c00;
+}
+
+.header-title{
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+.classificacao{
+    width: 35%;
+    border: 1px solid #ccc;
+    height: auto;
+}
+.classificacao--header{
+    background-color: #3b9c00;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: left;
+}
+.classificacao--second-header{
+    background-color: #fafafa;
+    padding: 20px;
+    font-size: 25px;
+    color: #333;
+}
+.classificacao-table{
+    width: 100%;
+    text-align: left;
+}
+.classificacao-table--th{
+    color: #c8c8c8;
+}
+.classificacao--table__tr{
+    border-top: 1px solid #e8e8e8;
+    height: 35px;
+}
+.classificacao--table__time{
+    font-weight: 300;
+    padding-left: 12px;
+    text-align: left;
+    width: 60px;
+    text-transform: uppercase;
+}
+.classificacao--table__pontos{
+    color: #333;
+    font-family: "opensans-light",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 0;
+    width: 50px;
+}

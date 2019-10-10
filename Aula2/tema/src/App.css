@@ -1,0 +1,40 @@
+.classe{
+  margin-top: 100px;
+  display: flex;
+}
+
+.atributtes{
+  margin-top: 30px;
+  font-weight: bold;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(235, 227, 227);
+  border-top: 1px solid rgb(235, 227, 227);
+}
+
+.atributtes div{
+  width: 150px;
+}
+
+
+/* .loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spin 5s linear;
+    position: absolute;
+
+} */
+
+@keyframes spin {
+    0% {
+      visibility: visible;
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(720deg);
+      visibility: hidden;
+    }
+}

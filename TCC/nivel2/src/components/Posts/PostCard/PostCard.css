@@ -1,0 +1,58 @@
+.miniPost{
+    height: 350px;
+    width: 20%;
+    background: #F8F9FA;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .miniPost--content{
+    margin-top: 12px;
+    width: 95%;
+    flex: 1;
+  }
+  
+  .miniPost--content div{
+    border-radius: 2px;
+  }
+  
+  .miniPost--button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 18px;
+  }
+  
+  .miniPost--image{
+    width: 100%;
+    height: 40%;
+  }
+  
+  .miniPost--image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .miniPost--title{
+    margin-top: 10px;
+    width: 100%;
+    height: 18%;
+  }
+  
+  .miniPost--description{
+    margin-top: 10px;
+    height: 30%;
+    width: 100%
+  }
+
+  h5{
+    padding-left: 5px;
+    font-size: 10pt;
+  }

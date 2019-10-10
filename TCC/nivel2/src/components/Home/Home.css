@@ -1,0 +1,32 @@
+.newPost--button{
+    margin: auto;
+    height: 60px;
+    width: 10%;
+    bottom: 10px;
+    position: fixed;
+    right:10px;
+  }
+
+  .Home--pageTitle{
+    margin-left: 620px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 20pt;
+  }
+
+  .pesquisar{
+    margin-top: -25px;
+    margin-bottom: -10px;
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .pesquisar--button{
+    margin-top: 24px;
+    margin-left: 5px;
+    height: 49%;
+  }
+
+  .pesquisar--input{
+    width: 220px;
+  }

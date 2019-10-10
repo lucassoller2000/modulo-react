@@ -1,0 +1,33 @@
+.newPost--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #e6e1e1;
+    border-radius: 7px;
+    padding-bottom: 30px;
+  }
+  
+  .exitNewPost--button{
+    margin-left: 10px;
+  }
+
+  .newPost--button{
+    margin: auto;
+    height: 60px;
+    width: 10%;
+    bottom: 10px;
+    position: fixed;
+    right:10px;
+  }
+
+  .newPost--buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .newPost--form{
+    margin-top: 20px;
+  }

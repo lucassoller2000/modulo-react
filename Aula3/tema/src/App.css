@@ -1,0 +1,42 @@
+.App {
+  height: 100%;
+  margin-top: 50%;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  height: 37px;
+  width: 74px;
+}
+
+#botao{
+  margin-left: -15px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+img{
+  height: 50px;
+}
+
+h1{
+  font-size: 10px;
+}
+
+.emptyList{
+  margin-top: 10px;
+  height: 220px;
+  width: 220px;
+}
+.emptyListText{
+  font-size: 25px;
+}
+
+.buttons{
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between
+}

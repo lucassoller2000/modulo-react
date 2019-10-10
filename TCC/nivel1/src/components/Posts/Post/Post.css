@@ -1,0 +1,34 @@
+.Post--content{
+    border: 1px solid rgb(213, 215, 218);
+    background: rgb(227, 228, 230);
+    width: 60%;
+  }
+  
+  .Post--title{
+    width: 100%;
+    height: 160px;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post--container{
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  .Post--content--image{
+    width: 100%;
+    margin-left: 20px;
+  }
+  .Post--image{
+    height: 300px;
+  }
+  .Post--text{
+    overflow-wrap: break-word;
+    margin-left: 20px;
+  }
